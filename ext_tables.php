@@ -5,14 +5,14 @@ if (!defined ('TYPO3_MODE')) {
 $TCA['tx_wordlists_lists'] = array (
 	'ctrl' => array (
 		'title'     => 'LLL:EXT:wordlists/locallang_db.xml:tx_wordlists_lists',		
-		'label'     => 'uid',	
+		'label'     => 'title',
 		'tstamp'    => 'tstamp',
 		'crdate'    => 'crdate',
 		'cruser_id' => 'cruser_id',
 		'languageField'            => 'sys_language_uid',	
 		'transOrigPointerField'    => 'l10n_parent',	
 		'transOrigDiffSourceField' => 'l10n_diffsource',	
-		'default_sortby' => 'ORDER BY crdate',	
+		'default_sortby' => 'ORDER BY title',
 		'delete' => 'deleted',	
 		'enablecolumns' => array (		
 			'disabled' => 'hidden',
