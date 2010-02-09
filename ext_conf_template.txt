@@ -1,0 +1,2 @@
+# cat=basic/enable/; type=boolean; label=Debug: Turn debugging on or off. Debugging will log warnings when something fails. Requires a devlog extensions.
+debug = 0
